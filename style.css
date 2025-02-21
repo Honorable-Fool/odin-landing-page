@@ -11,7 +11,6 @@ body {
     list-style-type: none;
 }
 .header a {
-    list-style-type: none;
     padding: 8px;
 }
 
@@ -27,6 +26,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 200px;
 }
 
 .content .main-text{
@@ -47,7 +47,7 @@ body {
     flex-direction: column;
     flex: 1;
     align-items: flex-start;
-    margin-left: 280px;
+    margin-left: 400px;
 }
 
 .content .left-side button {
@@ -65,10 +65,68 @@ body {
 }
 .content .right-side{
     display: flex;
-    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
+    min-width: 500px;
     margin-left: 50px;
-    margin-right: 200px;
+    margin-right: 400px;
     background-color: gray;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #1f2937;
+    flex: 1;
+}
+
+.second-content .information-header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.second-content .box ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.second-content .box ul li{
+    height: 50px;
+    width: 50px;
+    gap: 48px;
+    margin: 24px;
+    margin-bottom: 0;
+    padding: 48px;
+    border-radius: 12px;
+    border: 4px solid #3882F6;
+}
+
+.second-content .box li {
+    text-align: center;
+    text-decoration-style: none;
+    list-style-type: none;
+}
+.second-content .sub-text ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    flex-direction: row;
+}
+.second-content .sub-text li {
+    text-align: center;
+    width: 160px;
+    margin-bottom: auto;
+    padding: 8px;
+    text-decoration-style: none;
+    list-style-type: none;
 }
