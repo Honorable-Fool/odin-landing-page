@@ -167,3 +167,53 @@ body {
     color: #1f2937;
     margin-bottom: 48px;
 }
+
+.call-to-action-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+
+}
+.call-to-action-section .container {
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    margin: 125px;
+    padding: 100px;
+    background-color: #3882F6;
+    border-radius: 20px;
+}
+.call-to-action-section .container .left-side{
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.call-to-action-section .container .cta-main-text {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-to-action-section .container .cta-sub-text {
+    font-size: 18px;
+}
+
+.call-to-action-section .container .right-side button{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #3882F6;
+    border: 3px solid white;
+    color: #F9FAF8;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+}
